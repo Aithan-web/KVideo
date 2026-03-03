@@ -8,3 +8,5 @@ compatibility_flags = ["nodejs_compat"]
 
 [vars]
 # Environment variables can be set here or in Cloudflare Dashboard
+# 账户配置：格式为 密码:名称:角色:权限1|权限2
+ACCOUNTS = "kvideo.nv1:nv1:viewer:player_settings|danmaku_appearance|iptv_access"
